@@ -1,6 +1,6 @@
 import { unauthenticated } from "../shopify.server";
 
-const SHOP_DOMAIN = "cardnebula.myshopify.com";
+const SHOP_DOMAIN = "cardnebula-dev.myshopify.com";
 const PUBLIC_SECRET = process.env.PUBLIC_COLLECTION_SECRET || "";
 
 const COLLECTION_QUERY = `#graphql
